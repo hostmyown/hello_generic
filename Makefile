@@ -11,5 +11,7 @@ hello_generic: src/main.c
 clean:
 	-rm $(PROG)
 
+all: hello_generic
+
 install: hello_generic
 	 install $(PROG) $(PREFIX)/usr/bin
